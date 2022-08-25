@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/chat-with-chuck/static/css/main.dcaf8400.css",
+    "main.js": "/chat-with-chuck/static/js/main.0fa466cb.js",
+    "index.html": "/chat-with-chuck/index.html",
+    "main.dcaf8400.css.map": "/chat-with-chuck/static/css/main.dcaf8400.css.map",
+    "main.0fa466cb.js.map": "/chat-with-chuck/static/js/main.0fa466cb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dcaf8400.css",
+    "static/js/main.0fa466cb.js"
+  ]
+}
