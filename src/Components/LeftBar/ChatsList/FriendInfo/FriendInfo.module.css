@@ -1,0 +1,30 @@
+.chatList{
+    background-color: rgb(154, 146, 146);
+}
+
+.blockInfo{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid grey;
+}
+
+.blockInfo:hover{
+    cursor: pointer;
+    border:1px solid black
+}
+
+.blockData{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 10px 0
+}
+.date{
+    font-size: 12px;
+}
+.img{
+    margin: 0 5px;
+}
+.newMessage{
+    background-color: rgb(154, 146, 146);
+}

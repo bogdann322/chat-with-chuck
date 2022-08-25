@@ -1,0 +1,13 @@
+.block{
+    width: 80%;    
+    position: relative;
+    background-color: rgb(166, 157, 157);
+}
+.block h1{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+}

@@ -1,23 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import React, {useState} from 'react';
+import { useSelector } from 'react-redux';
+
+import ChatPage from './Components/ChatPage/ChatPage';
+import LeftBar from './Components/LeftBar/LeftBar';
+import NoChat from './Components/NoChat/NoChat';
 
 function App() {
+
+  const selectedChat = useSelector((state) => state.chatUsers.selectedId)
+  const [newMessage, setNewMessage] = useState(false)
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={{display:'flex'}}>
+      <LeftBar newMessage={newMessage} setNewMessage={setNewMessage}/>
+      {selectedChat ? <ChatPage setNewMessage={setNewMessage} newMessage={newMessage}/> : <NoChat/>}      
     </div>
   );
 }

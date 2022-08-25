@@ -1,0 +1,13 @@
+.blockInput{
+ text-align: center;
+ border: 1px solid grey;
+ padding: 30px;
+}
+
+.input{
+    width: 60%;
+    height: 20px;
+    border-radius: 35px;
+    border: 1px solid grey;
+    padding: 10px;
+}
