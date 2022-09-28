@@ -55,7 +55,7 @@ const ChatPage = ({setNewMessage, newMessage}) => {
             setNewMessage(true)
             alert(`You have a new message from ${chatUsers[selectedId -1].name}`)
             setAbleToWrite(false)
-          }, 10000);
+          }, 2000);
     }
     
     return (
