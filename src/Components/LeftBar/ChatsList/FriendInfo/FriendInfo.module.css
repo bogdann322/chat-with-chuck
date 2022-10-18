@@ -19,6 +19,13 @@
     width: 100%;
     margin: 10px 0
 }
+.name{
+    font-weight: bold;
+}
+.mess{
+    hyphens: auto;
+    overflow-x:hidden
+}
 .date{
     font-size: 12px;
 }

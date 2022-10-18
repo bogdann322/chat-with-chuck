@@ -1,6 +1,8 @@
 import React, {useEffect, useState} from 'react';
 import { useDispatch, useSelector } from 'react-redux/es/exports'
 import axios from 'axios';
+import {NotificationContainer, NotificationManager} from 'react-notifications';
+import 'react-notifications/lib/notifications.css';
 
 import Chat from './Chat/Chat';
 import Header from './Header/Header';
@@ -53,9 +55,9 @@ const ChatPage = ({setNewMessage, newMessage}) => {
         setTimeout(() => {
             dispatch(addNewMessageAction(Data(chucksAnswer, false)))
             setNewMessage(true)
-            alert(`You have a new message from ${chatUsers[selectedId -1].name}`)
+            NotificationManager.info(`New message from ${chatUsers[selectedId -1].name}`);
             setAbleToWrite(false)
-          }, 10000);
+          }, 2000);
     }
     
     return (
@@ -63,6 +65,7 @@ const ChatPage = ({setNewMessage, newMessage}) => {
             <Header avatar={chatUsers[selectedId -1].avatar} name = {chatUsers[selectedId -1].name}/>
             <Chat avatar={chatUsers[selectedId -1].avatar} messages={chatUsers[selectedId -1].messages}/>
             <SendForm addnewMessage={addnewMessage} newMessage={newMessage} ableToWrite={ableToWrite}/>
+            <NotificationContainer/>
         </div>
     );
 };

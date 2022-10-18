@@ -12,8 +12,8 @@ const FriendInfo = ({miniAvatar, name, message, date, id, getUserId, newMessage,
             </div>
             <div className={styles.blockData}>
                 <div>
-                    <div>{name}</div>
-                    <div>{message}</div>
+                    <div className={styles.name}>{name}</div>
+                    <div className={styles.mess}>{message}</div>
                 </div>
                 <div className={styles.date}>
                     {date}

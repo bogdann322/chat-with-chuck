@@ -26,7 +26,6 @@ const ChatsList = ({ searchedName, setNewMessage, newMessage }) => {
 						.toLocaleLowerCase()
 						.includes(searchedName.toLocaleLowerCase())
 				)
-				
 				.map((chatUser) => (
 					<FriendInfo
 						miniAvatar={chatUser.miniAvatar}
