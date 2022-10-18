@@ -1,13 +1,17 @@
 {
   "files": {
-    "main.css": "/chat-with-chuck/static/css/main.dcaf8400.css",
-    "main.js": "/chat-with-chuck/static/js/main.0fa466cb.js",
+    "main.css": "/chat-with-chuck/static/css/main.ceff8b7e.css",
+    "main.js": "/chat-with-chuck/static/js/main.dc2facd4.js",
+    "static/media/notification.svg?s3g3t9": "/chat-with-chuck/static/media/notification.5d0158671dd860c714c4.svg",
+    "static/media/notification.eot": "/chat-with-chuck/static/media/notification.3657084dc0419605a91c.eot",
+    "static/media/notification.woff?s3g3t9": "/chat-with-chuck/static/media/notification.c392cd33d9d9de730f9d.woff",
+    "static/media/notification.ttf?s3g3t9": "/chat-with-chuck/static/media/notification.c5d9251ea82e42f75381.ttf",
     "index.html": "/chat-with-chuck/index.html",
-    "main.dcaf8400.css.map": "/chat-with-chuck/static/css/main.dcaf8400.css.map",
-    "main.0fa466cb.js.map": "/chat-with-chuck/static/js/main.0fa466cb.js.map"
+    "main.ceff8b7e.css.map": "/chat-with-chuck/static/css/main.ceff8b7e.css.map",
+    "main.dc2facd4.js.map": "/chat-with-chuck/static/js/main.dc2facd4.js.map"
   },
   "entrypoints": [
-    "static/css/main.dcaf8400.css",
-    "static/js/main.0fa466cb.js"
+    "static/css/main.ceff8b7e.css",
+    "static/js/main.dc2facd4.js"
   ]
 }
